@@ -9,6 +9,8 @@ const uploadImage = async (req, res) => {
     {
       use_filename: true,
       folder: 'create-image-test',
+      height: 150,
+      width: 110,
     }
   )
 
